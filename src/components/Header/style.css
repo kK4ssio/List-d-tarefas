@@ -1,0 +1,40 @@
+Header{
+    width: 375px;
+    height: 173px;
+    background-color: var(--gray-330);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+img{
+    width: 105px;
+    height: 36px;
+}
+
+.container{
+    position: absolute;
+    z-index: -1px;
+    margin-top: 142px;
+    display: flex;
+    gap: 8px;
+
+}
+
+.container button{
+    width: 52px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--p-dark);
+    color: white;
+    border: 2px solid var(--gray-330);
+}
+
+.container input{
+    width: 267px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+}
